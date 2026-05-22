@@ -1,0 +1,21 @@
+{
+  "name": "iraq-pay",
+  "version": "0.1.0",
+  "description": "Unified SDK for all Iraqi payment gateways: ZainCash, FIB, AsiaCell Cash, FastPay, Qi Card.",
+  "main": "dist/index.js",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test"
+  },
+  "keywords": ["payments", "iraq", "zaincash", "fib", "asiacell", "fastpay", "qi-card", "sdk"],
+  "author": "Kasim Mohammed <mrkasimmjk@gmail.com>",
+  "license": "MIT",
+  "repository": "git+https://github.com/kasimmj/iraq-pay.git",
+  "homepage": "https://github.com/kasimmj/iraq-pay",
+  "engines": {"node": ">=18"},
+  "files": ["dist", "README.md", "LICENSE"]
+}
