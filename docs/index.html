@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>iraq-pay</title>
+<meta name="description" content="Unified SDK for all Iraqi payment gateways — ZainCash, FIB, AsiaCell, FastPay, Qi Card.">
+<meta property="og:title" content="iraq-pay">
+<meta property="og:description" content="Unified SDK for all Iraqi payment gateways — ZainCash, FIB, AsiaCell, FastPay, Qi Card.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kasimmj.github.io/iraq-pay/">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: linear-gradient(135deg, #0a0a0f 0%, #1a0a2e 100%);
+    color: #ffffff; min-height: 100vh; display: flex; align-items: center;
+    justify-content: center; overflow-x: hidden; }
+  .container { text-align: center; padding: 2rem; max-width: 900px;
+    animation: fadeUp 0.8s ease-out; }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); } }
+  .emoji { font-size: 5rem; margin-bottom: 1rem;
+    animation: float 3s ease-in-out infinite; }
+  @keyframes float { 0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); } }
+  h1 { font-size: 4rem; font-weight: 900; letter-spacing: -0.03em;
+    margin-bottom: 1rem; background: linear-gradient(135deg, #A78BFA 0%, #FFFFFF 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text; word-break: break-word; }
+  .subtitle { font-size: 1.3rem; opacity: 0.85; margin-bottom: 3rem;
+    line-height: 1.5; max-width: 700px; margin-left: auto; margin-right: auto; }
+  .cta-group { display: flex; gap: 1rem; justify-content: center;
+    flex-wrap: wrap; margin-bottom: 3rem; }
+  .btn { padding: 1rem 2rem; border-radius: 12px; text-decoration: none;
+    font-weight: 600; font-size: 1.05rem; transition: all 0.3s ease;
+    display: inline-block; }
+  .btn-primary { background: #A78BFA; color: #0a0a0f; }
+  .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 12px 30px #A78BFA55; }
+  .btn-secondary { background: rgba(255,255,255,0.08); color: #ffffff;
+    border: 1px solid rgba(255,255,255,0.15); }
+  .btn-secondary:hover { background: rgba(255,255,255,0.15); transform: translateY(-3px); }
+  .badges { display: flex; gap: 0.5rem; justify-content: center;
+    flex-wrap: wrap; opacity: 0.8; }
+  .badges img { height: 28px; }
+  .grid-bg { position: fixed; inset: 0;
+    background-image: linear-gradient(rgba(167,139,250,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(167,139,250,0.03) 1px, transparent 1px);
+    background-size: 50px 50px; pointer-events: none; z-index: -1; }
+  .footer { position: fixed; bottom: 1rem; left: 50%; transform: translateX(-50%);
+    font-size: 0.85rem; opacity: 0.5; }
+  .footer a { color: #A78BFA; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="grid-bg"></div>
+<div class="container">
+  <div class="emoji">💳</div>
+  <h1>iraq-pay</h1>
+  <p class="subtitle">Unified SDK for all Iraqi payment gateways — ZainCash, FIB, AsiaCell, FastPay, Qi Card.</p>
+  <div class="cta-group">
+    <a class="btn btn-primary" href="https://github.com/kasimmj/iraq-pay">⭐ Star on GitHub</a>
+    <a class="btn btn-secondary" href="https://github.com/kasimmj/iraq-pay#readme">📖 Read Docs</a>
+  </div>
+  <div class="badges">
+    <img src="https://img.shields.io/github/stars/kasimmj/iraq-pay?style=flat-square&color=A78BFA&labelColor=0D1117" alt="Stars">
+    <img src="https://img.shields.io/github/forks/kasimmj/iraq-pay?style=flat-square&color=A78BFA&labelColor=0D1117" alt="Forks">
+    <img src="https://img.shields.io/github/issues/kasimmj/iraq-pay?style=flat-square&color=A78BFA&labelColor=0D1117" alt="Issues">
+    <img src="https://img.shields.io/github/license/kasimmj/iraq-pay?style=flat-square&color=A78BFA&labelColor=0D1117" alt="License">
+  </div>
+</div>
+<div class="footer">Built with ❤️ by <a href="https://kasimmj.com/portfolio">Kasim Mohammed</a></div>
+</body>
+</html>
